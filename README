@@ -27,11 +27,21 @@ top-level directory of this distribution, you will find the MIT (Expat)
 License under which is Pohoda-mserver-client licensed.
 
 
+Requirements
+============
+
+The library is written in the `Python programming language`_, version
+3.6. It requires:
+
+- the `requests Python package`_, version 2.18 or compatible.
+
+
 Installation
 ============
 
-Install the ``pohoda_mserver_client`` Python package (e.g. using the
-`pip tool`_).
+#. Install the requirements listed above.
+#. Install the ``pohoda_mserver_client`` Python package (e.g. using the
+   `pip tool`_).
 
 
 Support
@@ -57,3 +67,4 @@ The script is written in the `Python programming language`_, version
 .. _Python programming language: https://www.python.org/
 .. _issue tracking system: https://github.com/rossumai/pohoda-mserver-client/issues
 .. _pip tool: https://pip.pypa.io/
+.. _requests Python package: http://python-requests.org/

@@ -36,7 +36,7 @@ AUDIENCE_CLASSES = {'Developers'}
 LICENSE_CLASS = 'OSI Approved :: MIT License'
 NATURAL_LANGUAGE_CLASSES = {'English'}
 TOPIC_CLASSES = {'Software Development :: Libraries :: Python Modules'}
-REQUIRED_DISTS = {}
+REQUIRED_DISTS = {'requests (>=2.18,<3)'}
 PROJECT_URLS = {'issue tracking system, https://github.com/rossumai/pohoda-mserver-client/issues'}
 PACKAGE = 'pohoda_mserver_client'
 
