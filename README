@@ -27,6 +27,13 @@ top-level directory of this distribution, you will find the MIT (Expat)
 License under which is Pohoda-mserver-client licensed.
 
 
+Installation
+============
+
+Install the ``pohoda_mserver_client`` Python package (e.g. using the
+`pip tool`_).
+
+
 Support
 =======
 
@@ -34,5 +41,19 @@ If you are having issues, please let us know through our `issue tracking
 system`_.
 
 
+Packaging
+=========
+
+Various packaging tasks can be performed using the package.py script
+found in the top-level directory of this distribution. The usage is::
+
+    package.py [-h] [--destination DESTINATION] version download_url
+
+The script is written in the `Python programming language`_, version
+3.6.
+
+
 .. _POHODA: https://www.pohoda.cz/
+.. _Python programming language: https://www.python.org/
 .. _issue tracking system: https://github.com/rossumai/pohoda-mserver-client/issues
+.. _pip tool: https://pip.pypa.io/
