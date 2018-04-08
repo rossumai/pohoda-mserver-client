@@ -1,0 +1,34 @@
+.. -*- coding: utf-8 -*-
+
+   Copyright (C) 2018 Pohoda-mserver-client authors. See the AUTHORS
+   file found in the top-level directory of this distribution.
+
+   Licensed under the MIT (Expat) License. See the LICENSE file found in
+   the top-level directory of this distribution.
+
+
+=========
+Changelog
+=========
+
+The following sections provide a complete, chronologically ordered list
+of all notable changes made to Pohoda-mserver-client.
+
+When declaring a dependency on Pohoda-mserver-client, you can take
+advantage of the fact that its versioning scheme dutifully follows both
+the `PEP 440`_ and the `Semantic Versioning`_, version 2.0.
+
+
+Version 0.1.0
+=============
+
+:Date: 2018-01-01
+
+Added
+----
+
+- a ``Client`` class
+
+
+.. _PEP 440: https://www.python.org/dev/peps/pep-0440
+.. _Semantic Versioning: http://semver.org/

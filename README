@@ -1,0 +1,70 @@
+.. -*- coding: utf-8 -*-
+
+   Copyright (C) 2018 Pohoda-mserver-client authors. See the AUTHORS
+   file found in the top-level directory of this distribution.
+
+   Licensed under the MIT (Expat) License. See the LICENSE file found in
+   the top-level directory of this distribution.
+
+
+=====================
+Pohoda-mserver-client
+=====================
+
+A library that provides a Python API to POHODA mServers.
+
+It is a library that solves a problem of how to interact with `POHODA
+mServers <POHODA_>`_ programmatically, by providing means to send
+various requests and parse the following responses.
+
+.. note::
+
+   The library is not feature complete yet. Features are added
+   incrementally as needed.
+
+This project is free and open-source. In the LICENSE file found in the
+top-level directory of this distribution, you will find the MIT (Expat)
+License under which is Pohoda-mserver-client licensed.
+
+
+Requirements
+============
+
+The library is written in the `Python programming language`_, version
+3.6. It requires:
+
+- the `requests Python package`_, version 2.18 or compatible.
+
+
+Installation
+============
+
+#. Install the requirements listed above.
+#. Install the ``pohoda_mserver_client`` Python package (e.g. using the
+   `pip tool`_).
+
+
+Support
+=======
+
+If you are having issues, please let us know through our `issue tracking
+system`_.
+
+
+Packaging
+=========
+
+Various packaging tasks can be performed using the package.py script
+found in the top-level directory of this distribution. The usage is::
+
+    package.py [-h] [--destination DESTINATION] version download_url
+
+The script is written in the `Python programming language`_, version
+3.6.
+
+
+.. _POHODA: https://www.pohoda.cz/
+.. _Python programming language: https://www.python.org/
+.. _issue tracking system: https://github.com/rossumai/pohoda-mserver-client/issues
+.. _pip tool: https://pip.pypa.io/
+.. _requests Python package: http://python-requests.org/
